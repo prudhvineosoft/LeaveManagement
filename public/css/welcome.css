@@ -1,0 +1,47 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+}
+.button {
+    font-size: 50px;
+    background-image: url('../images/button.jpg');
+    background-size: cover;
+    border: none;
+    padding: 10px 50px 10px 50px ;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    border-radius: 10px;
+}
+.button-spacing {
+    height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20%;
+}
+.signup-backup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+    background-color: rgba(212, 206, 198, 0.185);
+    padding: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.links2 {
+margin: 40px;
+margin-top: 60px;
+width: 70%;
+    background-color: rgba(212, 206, 198, 0.185);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.a_links {
+    color: aliceblue;
+    font-weight: bold;
+}
